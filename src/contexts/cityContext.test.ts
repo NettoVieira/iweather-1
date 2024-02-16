@@ -1,6 +1,6 @@
 import { act, renderHook, waitFor } from "@testing-library/react-native";
 
-import { useCity } from "@hooks/useCity";
+import { useCity } from "@contexts/hooks/useCity";
 import { CityProvider } from "@contexts/CityContext";
 
 describe("Context: cityContext", () => {

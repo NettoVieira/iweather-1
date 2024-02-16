@@ -32,7 +32,7 @@
         "./src/contexts/*"
       ],
       "@hooks/*": [
-        "./src/hooks/*"
+        "src/contexts/hooks/*"
       ],
       "@src/*": [
         "./src/*"
